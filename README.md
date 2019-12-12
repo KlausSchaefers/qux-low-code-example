@@ -3,6 +3,21 @@
 
 This is an examle how to use the Quant-UX low code vue component.
 
+# Quant-UX setup
+
+For production install the quant-ux-cli
+
+```
+npm -g quant-ux-cli
+```
+
+then run the cli and choose the 'Download' option
+
+```
+quant-ux
+```
+
+
 ## Project setup
 ```
 npm install

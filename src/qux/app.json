@@ -1,0 +1,1797 @@
+{
+  "_id": "5df2736be2fb53745851feb5",
+  "version": 2,
+  "name": "Quant-UX-Server - Nice Reponsive",
+  "description": "",
+  "screenSize": {
+    "w": 1024,
+    "h": 768
+  },
+  "type": "tablet",
+  "screens": {
+    "s10000": {
+      "x": 2516,
+      "y": 2296,
+      "h": 1012,
+      "w": 1024,
+      "name": "Screen",
+      "type": "Screen",
+      "style": {
+        "background": "#cad9df"
+      },
+      "min": {
+        "w": 1024,
+        "h": 768
+      },
+      "has": {
+        "image": true
+      },
+      "props": {
+        "start": true
+      },
+      "children": [
+        "w10002",
+        "w10003",
+        "w10005",
+        "w10006",
+        "w10026",
+        "w10027",
+        "w10028",
+        "w10029",
+        "w10030",
+        "w10031",
+        "w10032",
+        "w10033",
+        "w10034",
+        "w10035",
+        "w10036",
+        "w10037",
+        "w10039",
+        "w10040",
+        "w10017",
+        "w10019",
+        "w10020",
+        "w10021",
+        "w10038",
+        "w10004",
+        "w10012",
+        "w10013",
+        "w10014",
+        "w10015",
+        "w10016",
+        "w10018",
+        "w10001",
+        "w10022",
+        "w10023",
+        "w10024",
+        "w10025",
+        "w10041",
+        "w10042",
+        "w10043",
+        "w10044",
+        "w10045"
+      ],
+      "id": "s10000",
+      "modified": 1576171327494
+    }
+  },
+  "widgets": {
+    "w10001": {
+      "type": "Button",
+      "name": "Container",
+      "x": 2606,
+      "y": 2346,
+      "w": 844,
+      "h": 688,
+      "z": 1,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": true,
+          "up": false,
+          "left": true,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#b8cdd7",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": null,
+        "wrap": true
+      },
+      "id": "w10001",
+      "created": 1576170309644,
+      "modified": 1576171874357
+    },
+    "w10002": {
+      "type": "Button",
+      "name": "Box 1",
+      "x": 2636,
+      "y": 2366,
+      "w": 225,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10002",
+      "created": 1576170348473,
+      "modified": 1576171267780
+    },
+    "w10003": {
+      "type": "Button",
+      "name": "Circle",
+      "x": 2807,
+      "y": 2376,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "1"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10003",
+      "created": 1576170395680,
+      "modified": 1576171838449
+    },
+    "w10004": {
+      "type": "Label",
+      "name": "Label",
+      "x": 2646,
+      "y": 2376,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name 1"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10004",
+      "created": 1576170433984,
+      "modified": 1576171827117
+    },
+    "w10005": {
+      "type": "Label",
+      "name": "Label 1",
+      "x": 2646,
+      "y": 2406,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10005",
+      "created": 1576170440631,
+      "modified": 1576170551869,
+      "copyOf": "w10004"
+    },
+    "w10006": {
+      "id": "w10006",
+      "type": "Label",
+      "name": "Paragraph",
+      "x": 2646,
+      "y": 2430,
+      "w": 205,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576170466905,
+      "modified": 1576170551870
+    },
+    "w10012": {
+      "type": "Button",
+      "name": "Box 7",
+      "x": 2636,
+      "y": 2790,
+      "w": 226,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10012",
+      "created": 1576170562156,
+      "modified": 1576171816141,
+      "copyOf": "w10002"
+    },
+    "w10013": {
+      "type": "Button",
+      "name": "Ciricle 3",
+      "x": 2808,
+      "y": 2800,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "7"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10013",
+      "created": 1576170562156,
+      "modified": 1576171871129,
+      "copyOf": "w10003"
+    },
+    "w10014": {
+      "type": "Label",
+      "name": "Label 4",
+      "x": 2646,
+      "y": 2800,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10014",
+      "created": 1576170562157,
+      "modified": 1576171816146,
+      "copyOf": "w10004"
+    },
+    "w10015": {
+      "type": "Label",
+      "name": "Label 5",
+      "x": 2646,
+      "y": 2830,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10015",
+      "created": 1576170562157,
+      "modified": 1576171816147,
+      "copyOf": "w10005"
+    },
+    "w10016": {
+      "id": "w10016",
+      "type": "Label",
+      "name": "Paragraph 6",
+      "x": 2646,
+      "y": 2854,
+      "w": 206,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576170562158,
+      "modified": 1576171816149,
+      "copyOf": "w10006"
+    },
+    "w10017": {
+      "type": "Button",
+      "name": "Box 6",
+      "x": 3148,
+      "y": 2578,
+      "w": 226,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10017",
+      "created": 1576170563799,
+      "modified": 1576171775449,
+      "copyOf": "w10002"
+    },
+    "w10018": {
+      "type": "Button",
+      "name": "Circle 4",
+      "x": 3319,
+      "y": 2588,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "6"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10018",
+      "created": 1576170563800,
+      "modified": 1576171868840,
+      "copyOf": "w10003"
+    },
+    "w10019": {
+      "type": "Label",
+      "name": "Label 6",
+      "x": 3158,
+      "y": 2588,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10019",
+      "created": 1576170563801,
+      "modified": 1576171775452,
+      "copyOf": "w10004"
+    },
+    "w10020": {
+      "type": "Label",
+      "name": "Label 7",
+      "x": 3158,
+      "y": 2618,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10020",
+      "created": 1576170563802,
+      "modified": 1576171775455,
+      "copyOf": "w10005"
+    },
+    "w10021": {
+      "id": "w10021",
+      "type": "Label",
+      "name": "Paragraph 5",
+      "x": 3158,
+      "y": 2642,
+      "w": 206,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576170563803,
+      "modified": 1576171775456,
+      "copyOf": "w10006"
+    },
+    "w10022": {
+      "type": "Button",
+      "name": "Container 1",
+      "x": 2606,
+      "y": 3064,
+      "w": 844,
+      "h": 168,
+      "z": 7,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": true,
+          "up": false,
+          "left": true,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#b8cdd7",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": null,
+        "wrap": true
+      },
+      "id": "w10022",
+      "created": 1576171329518,
+      "modified": 1576171882813,
+      "copyOf": "w10001"
+    },
+    "w10023": {
+      "type": "Button",
+      "name": "Box8",
+      "x": 2644,
+      "y": 3104,
+      "w": 166,
+      "h": 86,
+      "z": 8,
+      "props": {
+        "label": "1",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 60,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#333333",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "id": "w10023",
+      "created": 1576171336841,
+      "modified": 1576171882815
+    },
+    "w10024": {
+      "type": "Button",
+      "name": "Box 9",
+      "x": 2848,
+      "y": 3106,
+      "w": 166,
+      "h": 86,
+      "z": 9,
+      "props": {
+        "label": "2",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 60,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#333333",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "id": "w10024",
+      "created": 1576171350180,
+      "modified": 1576171882816,
+      "copyOf": "w10023"
+    },
+    "w10025": {
+      "type": "Button",
+      "name": "Box 10",
+      "x": 3052,
+      "y": 3108,
+      "w": 166,
+      "h": 86,
+      "z": 10,
+      "props": {
+        "label": "2",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 60,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#333333",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "id": "w10025",
+      "created": 1576171357296,
+      "modified": 1576171882817,
+      "copyOf": "w10023"
+    },
+    "w10026": {
+      "type": "Button",
+      "name": "Box 2",
+      "x": 2892,
+      "y": 2366,
+      "w": 225,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10026",
+      "created": 1576171706244,
+      "modified": 1576171713079,
+      "copyOf": "w10002"
+    },
+    "w10027": {
+      "type": "Button",
+      "name": "Circle 1",
+      "x": 3063,
+      "y": 2376,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "2"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10027",
+      "created": 1576171706246,
+      "modified": 1576171855692,
+      "copyOf": "w10003"
+    },
+    "w10028": {
+      "type": "Label",
+      "name": "Label 2",
+      "x": 2902,
+      "y": 2376,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10028",
+      "created": 1576171706247,
+      "modified": 1576171713082,
+      "copyOf": "w10004"
+    },
+    "w10029": {
+      "type": "Label",
+      "name": "Label 3",
+      "x": 2902,
+      "y": 2406,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10029",
+      "created": 1576171706249,
+      "modified": 1576171713083,
+      "copyOf": "w10005"
+    },
+    "w10030": {
+      "id": "w10030",
+      "type": "Label",
+      "name": "Paragraph 1",
+      "x": 2902,
+      "y": 2430,
+      "w": 205,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576171706250,
+      "modified": 1576171713085,
+      "copyOf": "w10006"
+    },
+    "w10031": {
+      "type": "Button",
+      "name": "Box 3",
+      "x": 3148,
+      "y": 2366,
+      "w": 225,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10031",
+      "created": 1576171714026,
+      "modified": 1576171267780,
+      "copyOf": "w10002"
+    },
+    "w10032": {
+      "type": "Button",
+      "name": "Circle 2",
+      "x": 3319,
+      "y": 2376,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "3"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10032",
+      "created": 1576171714028,
+      "modified": 1576171856913,
+      "copyOf": "w10003"
+    },
+    "w10033": {
+      "type": "Label",
+      "name": "Label 4",
+      "x": 3158,
+      "y": 2376,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10033",
+      "created": 1576171714029,
+      "modified": 1576170551869,
+      "copyOf": "w10004"
+    },
+    "w10034": {
+      "type": "Label",
+      "name": "Label 5",
+      "x": 3158,
+      "y": 2406,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10034",
+      "created": 1576171714030,
+      "modified": 1576170551869,
+      "copyOf": "w10005"
+    },
+    "w10035": {
+      "id": "w10035",
+      "type": "Label",
+      "name": "Paragraph 2",
+      "x": 3158,
+      "y": 2430,
+      "w": 205,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576171714032,
+      "modified": 1576170551870,
+      "copyOf": "w10006"
+    },
+    "w10036": {
+      "type": "Button",
+      "name": "Box 4",
+      "x": 2636,
+      "y": 2578,
+      "w": 225,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10036",
+      "created": 1576171715626,
+      "modified": 1576171723045,
+      "copyOf": "w10002"
+    },
+    "w10037": {
+      "type": "Button",
+      "name": "Circle 3",
+      "x": 2807,
+      "y": 2588,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "4"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10037",
+      "created": 1576171715628,
+      "modified": 1576171861624,
+      "copyOf": "w10003"
+    },
+    "w10038": {
+      "type": "Label",
+      "name": "Label 6",
+      "x": 2646,
+      "y": 2588,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10038",
+      "created": 1576171715629,
+      "modified": 1576171784925,
+      "copyOf": "w10004"
+    },
+    "w10039": {
+      "type": "Label",
+      "name": "Label 7",
+      "x": 2646,
+      "y": 2618,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10039",
+      "created": 1576171715630,
+      "modified": 1576171723050,
+      "copyOf": "w10005"
+    },
+    "w10040": {
+      "id": "w10040",
+      "type": "Label",
+      "name": "Paragraph 3",
+      "x": 2646,
+      "y": 2642,
+      "w": 205,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576171715633,
+      "modified": 1576171723051,
+      "copyOf": "w10006"
+    },
+    "w10041": {
+      "type": "Button",
+      "name": "Box 5",
+      "x": 2892,
+      "y": 2578,
+      "w": 226,
+      "h": 192,
+      "z": 2,
+      "props": {
+        "label": "",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "boxShadow": {
+          "v": 0,
+          "h": 0,
+          "b": 10,
+          "s": 2,
+          "c": "rgba(0,0,0,0.25)"
+        }
+      },
+      "id": "w10041",
+      "created": 1576172127439,
+      "modified": 1576172130378,
+      "copyOf": "w10017"
+    },
+    "w10042": {
+      "type": "Button",
+      "name": "Circle 5",
+      "x": 3063,
+      "y": 2588,
+      "w": 44,
+      "h": 44,
+      "z": 3,
+      "props": {
+        "label": "5"
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 28,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 100,
+        "borderTopLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderBottomLeftRadius": 100,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#e21818",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "verticalAlign": "middle"
+      },
+      "id": "w10042",
+      "created": 1576172127441,
+      "modified": 1576172138870,
+      "copyOf": "w10018"
+    },
+    "w10043": {
+      "type": "Label",
+      "name": "Label 8",
+      "x": 2902,
+      "y": 2588,
+      "w": 68,
+      "h": 14,
+      "z": 4,
+      "props": {
+        "label": "Name"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "fontWeight": "bold"
+      },
+      "id": "w10043",
+      "created": 1576172127443,
+      "modified": 1576172130381,
+      "copyOf": "w10019"
+    },
+    "w10044": {
+      "type": "Label",
+      "name": "Label 9",
+      "x": 2902,
+      "y": 2618,
+      "w": 68,
+      "h": 14,
+      "z": 5,
+      "props": {
+        "label": "Lastname"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333"
+      },
+      "id": "w10044",
+      "created": 1576172127444,
+      "modified": 1576172130383,
+      "copyOf": "w10020"
+    },
+    "w10045": {
+      "id": "w10045",
+      "type": "Label",
+      "name": "Paragraph 4",
+      "x": 2902,
+      "y": 2642,
+      "w": 206,
+      "h": 104,
+      "z": 6,
+      "props": {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "justify",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#6e6e6e"
+      },
+      "created": 1576172127446,
+      "modified": 1576172130384,
+      "copyOf": "w10021"
+    }
+  },
+  "lines": {},
+  "lastUUID": 10047,
+  "lastUpdate": 1576177522677,
+  "created": 1576170347633,
+  "startScreen": "",
+  "grid": {
+    "w": 8,
+    "h": 8,
+    "style": "line",
+    "color": "#cecece",
+    "visible": false,
+    "enabled": false
+  },
+  "domain": "Quant-UX.com",
+  "size": 28471,
+  "isDirty": false,
+  "sizeBackup": 44562,
+  "lastBackup": 1576177612262,
+  "lastCategory": "WireFrame",
+  "id": "5df2736be2fb53745851feb5"
+}
