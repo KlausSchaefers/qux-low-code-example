@@ -1,0 +1,133 @@
+{
+    "_id" : "5e16358be2fb5374585657ed",
+    "version" : 2,
+    "name" : "QUX-Responsive-Desktop",
+    "description" : "",
+    "screenSize" : {
+      "w" : 1280,
+      "h" : 720
+    },
+    "type" : "desktop",
+    "screens" : {
+      "s10000" : {
+        "x" : 2508,
+        "y" : 2312,
+        "h" : 720,
+        "w" : 1280,
+        "name" : "Screen",
+        "type" : "Screen",
+        "style" : {
+          "background" : "#ffffff"
+        },
+        "min" : {
+          "w" : 1280,
+          "h" : 720
+        },
+        "has" : {
+          "image" : true
+        },
+        "props" : {
+          "start" : true
+        },
+        "children" : [ "w10001", "w10002" ],
+        "id" : "s10000"
+      }
+    },
+    "widgets" : {
+      "w10001" : {
+        "type" : "Button",
+        "name" : "Box",
+        "x" : 2508,
+        "y" : 2312,
+        "w" : 1280,
+        "h" : 48,
+        "z" : 1,
+        "props" : {
+          "label" : ""
+        },
+        "has" : {
+          "backgroundColor" : true,
+          "border" : true,
+          "label" : true,
+          "padding" : true,
+          "onclick" : true
+        },
+        "actions" : { },
+        "style" : {
+          "fontSize" : 14,
+          "fontFamily" : "Helvetica Neue,Helvetica,Arial,sans-serif",
+          "textAlign" : "left",
+          "letterSpacing" : 0,
+          "lineHeight" : 1.4,
+          "color" : "#ffffff",
+          "borderTopRightRadius" : 0,
+          "borderTopLeftRadius" : 0,
+          "borderBottomRightRadius" : 0,
+          "borderBottomLeftRadius" : 0,
+          "borderTopWidth" : 0,
+          "borderBottomWidth" : 0,
+          "borderRightWidth" : 0,
+          "borderLeftWidth" : 0,
+          "borderTopColor" : "#333333",
+          "borderBottomColor" : "#333333",
+          "borderRightColor" : "#333333",
+          "borderLeftColor" : "#333333",
+          "background" : "#2218da",
+          "paddingTop" : 0,
+          "paddingBottom" : 0,
+          "paddingLeft" : 0,
+          "paddingRight" : 0
+        },
+        "id" : "w10001",
+        "created" : 1578513726610,
+        "modified" : 1578513736480
+      },
+      "w10002" : {
+        "type" : "Label",
+        "name" : "Label",
+        "x" : 2872,
+        "y" : 2494,
+        "w" : 388,
+        "h" : 106,
+        "z" : 2,
+        "props" : {
+          "label" : "Desktop"
+        },
+        "has" : {
+          "label" : true,
+          "padding" : true,
+          "advancedText" : true
+        },
+        "style" : {
+          "fontSize" : "Auto",
+          "fontFamily" : "Helvetica Neue,Helvetica,Arial,sans-serif",
+          "textAlign" : "left",
+          "letterSpacing" : 0,
+          "lineHeight" : 1,
+          "color" : "#333333"
+        },
+        "id" : "w10002",
+        "created" : 1578513740786,
+        "modified" : 1578513743075
+      }
+    },
+    "lines" : { },
+    "lastUUID" : 10003,
+    "lastUpdate" : 1578513743081,
+    "created" : 1578513803341,
+    "startScreen" : "",
+    "grid" : {
+      "w" : 8,
+      "h" : 8,
+      "style" : "line",
+      "color" : "#cecece",
+      "visible" : false,
+      "enabled" : false
+    },
+    "domain" : "Quant-UX.com",
+    "size" : 1833,
+    "isDirty" : false,
+    "sizeBackup" : 3384,
+    "lastBackup" : 1578513832545,
+    "id" : "5e16358be2fb5374585657ed"
+  }

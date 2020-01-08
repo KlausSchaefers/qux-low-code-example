@@ -1,6 +1,6 @@
 <template>
   <div class="home debug">
-    <QUX :app="hash" :config="config" :showDebug="true" v-model="payload"/>
+    <QUX :app="apps" :config="config" :showDebug="true" v-model="payload"/>
   </div>
 </template>
 <style lang="scss">
@@ -15,14 +15,16 @@ import Vue from "vue";
 import QUX from 'qux-lowcode'
 Vue.use(QUX);
 
+import mobile from '../qux/mobile.json'
+import desktop from '../qux/desktop.json'
+
 export default {
   name: 'home',
   data: function () {
     return {
-      hash: "a2aa10aSxK8OFl1m7qCr5ZH4QhVZu6ZqG86AqRhu2NabjXBPZFvfyJHkajA6",
-      payload: {
-        name: 'Klaus',
-        lastname: 'Schaefers'
+      apps: {
+          mobile: mobile,
+          desktop: desktop
       },
       config: {
         debug: {

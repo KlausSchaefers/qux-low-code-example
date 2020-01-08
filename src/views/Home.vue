@@ -2,6 +2,7 @@
   <div class="home debug">
     <a href="#/example1/">Example with key</a>
      <a href="#/example2/">Example with app</a>
+     <a href="#/example_responsive/">Responsive Example</a>
   </div>
 </template>
 <style lang="scss">

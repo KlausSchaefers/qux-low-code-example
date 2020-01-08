@@ -17,6 +17,17 @@ then run the cli and choose the 'Download' option
 quant-ux
 ```
 
+if you use the Icons, please ensure that you also install the mdi icon fons.
+
+```
+npm install @mdi/font
+```
+
+Make sure that the icon font is loaded by importing the font in the App.vue
+
+```
+import '@mdi/font/css/materialdesignicons.css'
+```
 
 ## Project setup
 ```

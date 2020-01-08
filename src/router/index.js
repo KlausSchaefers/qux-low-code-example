@@ -29,6 +29,11 @@ const routes = [
     name: 'example2path',
     component: () => import(/* webpackChunkName: "about" */ '../views/Example2.vue')
   },
+  {
+    path: '/example_responsive/',
+    name: 'example_responsive',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ResponsiveExample.vue')
+  },
 ]
 
 const router = new VueRouter({
